@@ -1,0 +1,51 @@
+  /*1) color - chnage the color of the text.
+   2) text-align - chnage the location of the text.  */
+body {
+  font-family: system-ui;
+background-image: url('../images/pixels.jpg');
+  color: white;
+  text-align: center;
+
+}
+
+
+/* The parameters of the style <h1> */
+h1 { 
+    text-align: center; 
+    background-color:#C07DC0	
+}
+
+
+
+
+/* The parameters of the style <h3> */
+h3 { 
+    text-align: center; 
+    background-color:#C07DC0	
+}
+
+
+/* 3) width - the width of the text.
+   4) height - the height of the text.
+   5) border-radius - the radius of the border. */
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 250px;
+  border-radius: 200%;
+}
+
+/* To place the table */
+#my_table{
+    margin-top:10px //moves your table 10pixels down
+    margin-left:10px //moves your table 10pixels right
+}
+
+/* The size of the table */
+table {
+  width: 100%;
+}
+
+p { 
+    color:black	
+}
